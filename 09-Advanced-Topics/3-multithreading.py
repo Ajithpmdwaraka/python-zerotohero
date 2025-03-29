@@ -1,7 +1,14 @@
-# Using lambda functions for short, one-time use
+# Using multithreading to run tasks concurrently
 
-square = lambda x: x * x
-print("Square of 5:", square(5))
+import threading
+import time
 
-add = lambda x, y: x + y
-print("Addition of 3 and 4:", add(3, 4))
+def print_numbers():
+    for i in range(5):
+        print(i)
+        time.sleep(1)
+
+thread1 = threading.Thread(target=print_numbers)
+thread1.start()
+
+print("Main thread continues execution...")
