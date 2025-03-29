@@ -25,17 +25,16 @@ Ensure you have **Python 3.x** installed on your machine. You can download it fr
 To get started, clone this repository using Git:
 
 ```bash
-git clone https://github.com/your-username/python-zero-to-hero.git
-cd python-zero-to-hero
+git clone https://github.com/Ajithpmdwaraka/python-zerotohero
 ```
 
-### Setting Up a Virtual Environment (Optional but Recommended)
+<!-- ### Setting Up a Virtual Environment (Optional but Recommended)
 
 ```bash
 python -m venv venv  # Create a virtual environment
 source venv/bin/activate  # Activate the environment (Mac/Linux)
 venv\Scripts\activate  # Activate the environment (Windows)
-```
+``` -->
 
 ### Install Dependencies (if any)
 
